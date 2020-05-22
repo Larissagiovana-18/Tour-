@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares del mundo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="page2" class="container_page_1">
+        <div class="column active">
+            <div class="content">
+                <h1>1</h1>
+                <div class="box">
+                    <h2>Brasil</h2>
+                    <p>Brasil es un vasto país de Sudamérica que se extiende desde la Cuenca del Amazonas en el norte hasta los viñedos y las enormes cataratas del Iguazú en el sur. Río de Janeiro, simbolizado por su estatua de 38 m del Cristo Redentor, junto con su enorme y estridente festival del Carnaval, que cuenta con carros alegóricos, exuberantes disfraces y danza y música samba...
+                        <br><a href="brasil.html" target="_blank">Más sobre Brasil</a>                       
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg1"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>2</h1>
+                <div class="box">
+                    <h2>Londres</h2>
+                    <p>Londres es la capital y mayor ciudad de Inglaterra y del Reino Unido. Situada a orillas del río Támesis, Londres es un importante asentamiento humano desde que fue fundada por los romanos con el nombre de Londinium hace casi dos milenios. Londres es una ciudad global, uno de los centros neurálgicos en el ámbito de las artes, el comercio...            
+                        <br><a href="londre.html" target="_blank">Más sobre Londres</a>                               
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg2"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>3</h1>
+                <div class="box">
+                    <h2>Abu Dabi</h2>
+                    <p>Abu Dabi1​ es la capital y segunda ciudad más poblada de los Emiratos Árabes Unidos, así como del emirato homónimo. Abu Dabi se encuentra en una isla en forma de T al sureste del golfo Pérsico. Abu Dabi ha crecido hasta convertirse en una metrópolis cosmopolita. Su rápido desarrollo y urbanización ha impulsado una transformación de Abu Dabi...    
+                        <br><a href="Abu.html" target="_blank">Más sobre Abu Dabi</a>                        
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg3"></div>
+        </div>
+        <div class="column">
+            <div class="content">
+                <h1>4</h1>
+                <div class="box">
+                    <h2>Barcelona</h2>
+                    <p>Barcelona es una ciudad española, capital de la comunidad autónoma de Cataluña, es la segunda ciudad más poblada de España después de Madrid, y la décima de la Unión Europea.  Barcelona ha sido escenario de diversos acontecimientos internacionales que han contribuido a consolidarla, desarrollarla y darle proyección mundial....
+                  <br><a href="barcelona.html" target="_blank">Más sobre Barcelona</a>                            
+                    </p>
+                </div>
+            </div>
+            <div class="bg bg4"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" ></script>
+    <script>
+    $(document).on('mouseover', '.container_page_1 .column', function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
+  </script>
+</body>
+</html>
